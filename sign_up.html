@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mijn website</title>
+  </head>
+  <body>
+    <h1>Bit Academy Sign Up</h1>
+  <form action="#">
+    <label class="login" for="name"><h4>Naam</h4></label>
+    <input type="text" id="name" name="name" class="login">
+
+    <label class="login" for="name"><h4>Email</h4></label>
+    <input type="Email" id="mail" name="mail" class="login">
+
+    <label class="login" for="name"><h4>Telefoonnummer</h4></label>
+    <input type="number" id="tel" name="tel" class="login">
+
+    <label class="login" for="name"><h4>Pin code</h4></label>
+    <input type="password" id="pin" name="pin" class="login">
+
+  <label for="p-select">Provincie</label>
+  <select id="p-select">
+      <option value="">--Selecteer een optie--</option>
+      <option value="NH">Noord-Holland</option>
+      <option value="ZH">Zuid-Holland</option>
+      <option value="FL">Flevoland</option>
+      <option value="GR">Groningen</option>
+      <option value="DR">Drenthe</option>
+      <option value="NB">Noord-Brabant</option>
+      <option value="FR">Friesland</option>
+      <option value="OV">Overijssel</option>
+      <option value="GE">Gelderland</option>
+      <option value="UT">Utrecht</option>
+      <option value="ZE">Zeeland</option>
+      <option value="LI">Limburg</option>
+  </select>
+    <p>Hou jij van voetbal?</p>
+      <input type="radio" name="sport" value="Ja"> Ja<br>
+      <input type="radio" name="sport" value="Nee"> Nee<br>
+
+      <p>Favoriete dagen in de week</p>
+
+      <div>
+        <input type="checkbox" id="M" name="M"
+               checked class="dagen">
+        <label for="M">Maandag</label>
+      </div>
+      
+      <div>
+        <input type="checkbox" id="D" name="D" class="dagen">
+        <label for="D">Dinsdag</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="W" name="W" class="dagen">
+        <label for="W">Woensdag</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="D" name="D" class="dagen">
+        <label for="Do">Donderdag</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="D" name="V" class="dagen">
+        <label for="V">Vrijdag</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="D" name="Z" class="dagen">
+        <label for="Z">Zaterdag</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="D" name="Zo" class="dagen">
+        <label for="Zo">Zondag</label>
+      </div>
+      <input type="submit"class="login">
+      <script src="script.js"></script>
+</form>
+
+</body>
+</html>
